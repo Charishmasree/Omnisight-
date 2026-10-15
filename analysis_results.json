@@ -1,0 +1,154 @@
+{
+  "1_normal_ui.png": {
+    "issue_detected": false,
+    "element": "None",
+    "issue_type": "none",
+    "severity": "none",
+    "description": "No visual layout issues or responsiveness defects detected. The page layout, contrast, and element alignment conform to standards.",
+    "suggested_css_fix": "",
+    "suggested_fix": "",
+    "issues": [],
+    "page_url": "http://localhost:8000/1_normal_ui",
+    "screenshot_path": "C:\\Users\\USER\\OneDrive\\Desktop\\Omnisight\\ai\\sample_images\\1_normal_ui.png",
+    "analyzed_at": "2026-10-15T01:49:03.981334+00:00",
+    "mode": "mock_simulation"
+  },
+  "2_clipped_button.png": {
+    "issue_detected": true,
+    "element": "#checkout-button",
+    "issue_type": "clipped_button",
+    "severity": "high",
+    "description": "The button label text 'Proceed to Secure Checkout' exceeds container width (100px) and is horizontally clipped.",
+    "suggested_css_fix": "width: auto; min-width: 140px; padding: 10px 18px; white-space: normal; overflow: visible;",
+    "suggested_fix": "width: auto; min-width: 140px; padding: 10px 18px; white-space: normal; overflow: visible;",
+    "issues": [
+      {
+        "element": "#checkout-button",
+        "issue_type": "clipped_button",
+        "severity": "high",
+        "description": "The button label text 'Proceed to Secure Checkout' exceeds container width (100px) and is horizontally clipped.",
+        "suggested_css_fix": "width: auto; min-width: 140px; padding: 10px 18px; white-space: normal; overflow: visible;",
+        "suggested_fix": "width: auto; min-width: 140px; padding: 10px 18px; white-space: normal; overflow: visible;"
+      }
+    ],
+    "page_url": "http://localhost:8000/2_clipped_button",
+    "screenshot_path": "C:\\Users\\USER\\OneDrive\\Desktop\\Omnisight\\ai\\sample_images\\2_clipped_button.png",
+    "analyzed_at": "2026-10-15T01:49:03.983347+00:00",
+    "mode": "mock_simulation"
+  },
+  "3_overlapping_elements.png": {
+    "issue_detected": true,
+    "element": ".promo-badge",
+    "issue_type": "overlapping_text",
+    "severity": "high",
+    "description": "The promotional badge container (.promo-badge) has absolute positioning that directly collides with and obscures product description text.",
+    "suggested_css_fix": "position: relative; margin-bottom: 16px; top: auto; z-index: 1;",
+    "suggested_fix": "position: relative; margin-bottom: 16px; top: auto; z-index: 1;",
+    "issues": [
+      {
+        "element": ".promo-badge",
+        "issue_type": "overlapping_text",
+        "severity": "high",
+        "description": "The promotional badge container (.promo-badge) has absolute positioning that directly collides with and obscures product description text.",
+        "suggested_css_fix": "position: relative; margin-bottom: 16px; top: auto; z-index: 1;",
+        "suggested_fix": "position: relative; margin-bottom: 16px; top: auto; z-index: 1;"
+      }
+    ],
+    "page_url": "http://localhost:8000/3_overlapping_elements",
+    "screenshot_path": "C:\\Users\\USER\\OneDrive\\Desktop\\Omnisight\\ai\\sample_images\\3_overlapping_elements.png",
+    "analyzed_at": "2026-10-15T01:49:03.984970+00:00",
+    "mode": "mock_simulation"
+  },
+  "4_misalignment.png": {
+    "issue_detected": true,
+    "element": "#checkout-form .form-group",
+    "issue_type": "misalignment",
+    "severity": "medium",
+    "description": "Form inputs (Email, Shipping Address) are misaligned with irregular horizontal offsets (x=140px vs x=60px), breaking grid alignment.",
+    "suggested_css_fix": "display: flex; flex-direction: column; width: 100%; margin-left: 0; box-sizing: border-box;",
+    "suggested_fix": "display: flex; flex-direction: column; width: 100%; margin-left: 0; box-sizing: border-box;",
+    "issues": [
+      {
+        "element": "#checkout-form .form-group",
+        "issue_type": "misalignment",
+        "severity": "medium",
+        "description": "Form inputs (Email, Shipping Address) are misaligned with irregular horizontal offsets (x=140px vs x=60px), breaking grid alignment.",
+        "suggested_css_fix": "display: flex; flex-direction: column; width: 100%; margin-left: 0; box-sizing: border-box;",
+        "suggested_fix": "display: flex; flex-direction: column; width: 100%; margin-left: 0; box-sizing: border-box;"
+      }
+    ],
+    "page_url": "http://localhost:8000/4_misalignment",
+    "screenshot_path": "C:\\Users\\USER\\OneDrive\\Desktop\\Omnisight\\ai\\sample_images\\4_misalignment.png",
+    "analyzed_at": "2026-10-15T01:49:03.986144+00:00",
+    "mode": "mock_simulation"
+  },
+  "5_missing_element.png": {
+    "issue_detected": true,
+    "element": ".product-image-container",
+    "issue_type": "missing_element",
+    "severity": "medium",
+    "description": "Product hero image failed to render, displaying an empty broken placeholder. Additionally, the price element is missing from the card.",
+    "suggested_css_fix": "display: flex; align-items: center; justify-content: center; min-height: 200px; background: #f8fafc;",
+    "suggested_fix": "display: flex; align-items: center; justify-content: center; min-height: 200px; background: #f8fafc;",
+    "issues": [
+      {
+        "element": ".product-image-container",
+        "issue_type": "missing_element",
+        "severity": "medium",
+        "description": "Product hero image failed to render, displaying an empty broken placeholder. Additionally, the price element is missing from the card.",
+        "suggested_css_fix": "display: flex; align-items: center; justify-content: center; min-height: 200px; background: #f8fafc;",
+        "suggested_fix": "display: flex; align-items: center; justify-content: center; min-height: 200px; background: #f8fafc;"
+      }
+    ],
+    "page_url": "http://localhost:8000/5_missing_element",
+    "screenshot_path": "C:\\Users\\USER\\OneDrive\\Desktop\\Omnisight\\ai\\sample_images\\5_missing_element.png",
+    "analyzed_at": "2026-10-15T01:49:03.987178+00:00",
+    "mode": "mock_simulation"
+  },
+  "6_responsiveness_problem.png": {
+    "issue_detected": true,
+    "element": ".order-summary-table",
+    "issue_type": "responsiveness",
+    "severity": "critical",
+    "description": "The order summary table has a fixed width (620px) that exceeds the 375px mobile viewport width, causing severe horizontal overflow.",
+    "suggested_css_fix": "width: 100%; max-width: 100%; overflow-x: auto; display: block;",
+    "suggested_fix": "width: 100%; max-width: 100%; overflow-x: auto; display: block;",
+    "issues": [
+      {
+        "element": ".order-summary-table",
+        "issue_type": "responsiveness",
+        "severity": "critical",
+        "description": "The order summary table has a fixed width (620px) that exceeds the 375px mobile viewport width, causing severe horizontal overflow.",
+        "suggested_css_fix": "width: 100%; max-width: 100%; overflow-x: auto; display: block;",
+        "suggested_fix": "width: 100%; max-width: 100%; overflow-x: auto; display: block;"
+      }
+    ],
+    "page_url": "http://localhost:8000/6_responsiveness_problem",
+    "screenshot_path": "C:\\Users\\USER\\OneDrive\\Desktop\\Omnisight\\ai\\sample_images\\6_responsiveness_problem.png",
+    "analyzed_at": "2026-10-15T01:49:03.988113+00:00",
+    "mode": "mock_simulation"
+  },
+  "7_unreadable_contrast.png": {
+    "issue_detected": true,
+    "element": ".terms-notice p",
+    "issue_type": "unreadable_text",
+    "severity": "medium",
+    "description": "Text color (#d4d4d4) against light gray background (#f5f5f5) provides a contrast ratio below 1.5:1, severely failing WCAG AA (4.5:1).",
+    "suggested_css_fix": "color: #1f2937; font-size: 14px; line-height: 1.5;",
+    "suggested_fix": "color: #1f2937; font-size: 14px; line-height: 1.5;",
+    "issues": [
+      {
+        "element": ".terms-notice p",
+        "issue_type": "unreadable_text",
+        "severity": "medium",
+        "description": "Text color (#d4d4d4) against light gray background (#f5f5f5) provides a contrast ratio below 1.5:1, severely failing WCAG AA (4.5:1).",
+        "suggested_css_fix": "color: #1f2937; font-size: 14px; line-height: 1.5;",
+        "suggested_fix": "color: #1f2937; font-size: 14px; line-height: 1.5;"
+      }
+    ],
+    "page_url": "http://localhost:8000/7_unreadable_contrast",
+    "screenshot_path": "C:\\Users\\USER\\OneDrive\\Desktop\\Omnisight\\ai\\sample_images\\7_unreadable_contrast.png",
+    "analyzed_at": "2026-10-15T01:49:03.989053+00:00",
+    "mode": "mock_simulation"
+  }
+}
